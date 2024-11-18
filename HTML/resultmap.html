@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/images/2024.png" alt="Logo" style="height: 100px;">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Routes</a></li>
+                <li class="nav-item"><a class="nav-link" href="states.html">States</a></li>
+                <li class="nav-item"><a class="nav-link" href="candidates.html">Candidates</a></li>
+                <li class="nav-item"><a class="nav-link" href="results.html">Results 2024</a></li>
+                <li class="nav-item"><a class="nav-link" href="evresults.html">EV Result 2024</a></li>
+                <li class="nav-item"><a class="nav-link" href="resultmap.html">Results Map</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Title -->
+    <div class="container-fluid">
+        <h1>2024 Results Map</h1>
+        <!-- Year Selection Buttons -->
+        <div class="year-buttons">
+            <button id="year-2020" class="btn btn-outline-primary">2020</button>
+            <button id="year-2024" class="btn btn-outline-primary">2024</button>
+        </div>
+
+        <!-- Map Container -->
+        <div class="map-container">
+            <img src="/images/placeholder-map.png" alt="Election Results Map" class="map" id="results-map">
+        </div>
+    </div>
+
+</body>
+</html>

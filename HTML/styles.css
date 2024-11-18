@@ -1,0 +1,58 @@
+.navbar-nav .nav-link {
+    font-size: 24px;
+}
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.candidate-image {
+    height: 150px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.party-icon {
+    height: 125px;
+    width: 125px;
+}
+.state-cell {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.republican {
+    background-color: red;
+}
+.democrat {
+    background-color: blue;
+}
+.summary-table th, .summary-table td {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.state-table .state-cell {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.republican {
+    background-color: red;
+}
+.democrat {
+    background-color: blue;
+}
+.year-buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.map-container {
+    text-align: center;
+}
+
+.map {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
